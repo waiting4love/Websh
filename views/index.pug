@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(
+    action="cmd"
+    method="POST"
+    accept-charset="UTF-8"
+    ectype="application/x-www-form-urlencoded")
+    fieldset
+      div
+        span Command:
+        input(type="text" name="cmd")
+      div
+        input(type="submit" value="Submit")
