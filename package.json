@@ -24,6 +24,7 @@
     "@types/mime": "^1.3.1",
     "@types/node": "^8.10.59",
     "@types/serve-static": "^1.7.32",
+    "kind-of": "^6.0.3",
     "typescript": "^3.2.2"
   }
 }
