@@ -26,6 +26,7 @@
     "@types/node": "^8.10.59",
     "@types/serve-static": "^1.7.32",
     "kind-of": "^6.0.3",
+    "lodash": ">=4.17.19"
     "typescript": "^3.2.2"
   }
 }
